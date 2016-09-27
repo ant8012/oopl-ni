@@ -19,3 +19,5 @@ int my_strcmp(const char* first, const char* second) {
 		return -first[index];
 	}
 }
+
+#endif

@@ -1,8 +1,8 @@
 .DEFAULT_GOAL := test
 
 FILES :=     \
-    IsPrime1
-    StrCmp
+    IsPrime1 \
+	StrCmp
 
 ifeq ($(shell uname), Darwin)                                           # Apple
     CXX          := g++

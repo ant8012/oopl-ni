@@ -1,3 +1,6 @@
+#ifndef StrCmp_h
+#define StrCmp_h
+
 int my_strcmp(const char* first, const char* second) {
 	int index = 0;
 	while(first[index] != '\0' || second[index] != '\0') {

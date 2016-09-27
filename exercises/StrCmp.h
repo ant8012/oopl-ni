@@ -18,6 +18,9 @@ int my_strcmp(const char* first, const char* second) {
 	if(second[index] == '\0') {
 		return -first[index];
 	}
+	else {
+		return -1;
+	}
 }
 
 #endif

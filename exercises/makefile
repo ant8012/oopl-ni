@@ -2,7 +2,10 @@
 
 FILES :=     \
     IsPrime1 \
-	StrCmp
+    Strcmp   \
+    Equal    \
+    Incr     \
+    Copy
 
 ifeq ($(shell uname), Darwin)                                           # Apple
     CXX          := g++
